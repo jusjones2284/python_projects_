@@ -29,11 +29,10 @@ while True:
         print("You got it!")
         print(f"You guessed the right number {user_guess} in a {guesses} of guesses")
         quit()
+    elif user_guess > random_number:
+        print("You were above the number! ")
     else:
-        if user_guess > random_number:
-            print("You were above the number! ")
-        else:
-            print("You were below nunmber")
+        print("You were below nunmber")
             
 
 # guessedNumber = print(input(f"Guess a number between 0 and {top_of_range} "))

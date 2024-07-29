@@ -46,6 +46,6 @@ if answer.upper() == "graphics processing unit".upper():
 else:
     print("Incorrect answer!")
     
-print(f"Your final score is: {score}")
+print(f"Your final score is: {score}.")
 
 
